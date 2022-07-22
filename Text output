@@ -1,0 +1,38 @@
+//header file which contains all the functions of program
+#include <iostream>
+//import library "std"
+using namespace std;
+//";" is line ending
+
+int main()
+{
+    cout << "Hello C++\n";
+}
+
+//when we want to output the multiple text lines
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Hello C++\n";
+    cout << "My name is Poom\n";
+    cout << "Nice to meet you\n";
+}
+/*we using "\n" for endling the line, We can also use endl command like
+cout << "Hello C++" << endl;*/
+//cout is a operation output command that we import from std libraly, It's like "Print" command in Python language
+//when we want to output multiple text lines with other tense in a line
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Hello C++ "; << "My name is Poom\n";
+    cout << "My name is Poom "; << "Nice to meet you\n";
+}
+//we use backspace for space tense in text line
+/*we can also use "\t" for using tab button by code like
+cout << "Helo C++" << "\tMy name is poom\n";*/
